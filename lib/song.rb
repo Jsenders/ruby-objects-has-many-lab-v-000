@@ -9,7 +9,5 @@ class Song
     self.artist ? self.artist.name : nil
   end
 end
-
-  @@all = []
-end
+@@all = []
 end
