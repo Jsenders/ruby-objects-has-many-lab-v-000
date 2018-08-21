@@ -4,7 +4,7 @@ class Song
   def initialize(name)
     self.name = name
   end
-def self.all 
+def self.all
   songs = []
 end
 
