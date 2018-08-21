@@ -3,6 +3,7 @@ class Song
 
   def initialize(name)
     self.name = name
+    @@all = []
   end
 def self.all
   songs = []
@@ -11,5 +12,4 @@ end
   def artist_name
     self.artist ? self.artist.name : nil
   end
-@@all = []
 end
