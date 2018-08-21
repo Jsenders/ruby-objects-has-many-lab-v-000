@@ -5,6 +5,10 @@ class Song
     self.name = name
   end
 
+  def self.all (songs)
+    @songs = []
+  end
+  
   def artist_name
     self.artist ? self.artist.name : nil
   end
