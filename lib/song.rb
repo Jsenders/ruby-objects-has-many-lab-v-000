@@ -4,6 +4,9 @@ class Song
   def initialize(name)
     self.name = name
   end
+def self.all 
+  songs = []
+end
 
   def artist_name
     self.artist ? self.artist.name : nil
