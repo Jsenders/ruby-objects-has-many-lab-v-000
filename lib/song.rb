@@ -8,7 +8,7 @@ class Song
 
 def self.all
   return
-  @@all
+  @@all = []
 end
 
   def artist_name
